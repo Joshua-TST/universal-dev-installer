@@ -2,7 +2,7 @@
 
 set -e
 
-echo "🌐 Starting Universal Dev Installer for macOS/Linux..."
+echo "Starting Universal Dev Installer for macOS/Linux..."
 
 # Detect macOS
 OS="$(uname)"
@@ -31,7 +31,7 @@ else
     exit 1
 fi
 
-echo "🐧 Detected Linux distro: $DISTRO"
+echo "Detected Linux distro: $DISTRO"
 
 # Installer functions
 install_deb_tools() {
