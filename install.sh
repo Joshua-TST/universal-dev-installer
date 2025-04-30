@@ -62,7 +62,7 @@ install_arch_tools() {
     sudo pacman -Sy --noconfirm python python-pip nodejs code google-chrome firefox
 
     # Postman via AUR (manual or yay)
-    echo "ostman/ngrok install on Arch requires AUR helper like 'yay'"
+    echo "Postman/ngrok install on Arch requires AUR helper like 'yay'"
     echo "Please run: yay -S postman-bin ngrok-bin"
 }
 
