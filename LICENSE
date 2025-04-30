@@ -1,0 +1,10 @@
+---
+
+## **Step 3: Initialize Git and Push to GitHub**
+
+1. Open terminal (or PowerShell) in your project folder:
+
+```bash
+git init
+git add .
+git commit -m "Initial commit: Universal Dev Installer"
